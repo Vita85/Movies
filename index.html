@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Movies App</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <a href="index.html" class="header__logo">
+            <img src="./images/movies.png" />MovieApp</a
+          >
+
+          <input
+            type="text"
+            id="searchInput"
+            class="header__search"
+            placeholder="Search..."
+          />
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      
+      <div id="resultsContainer" class="movies"></div>
+
+      <div class="modal"></div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
